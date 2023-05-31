@@ -1,0 +1,45 @@
+  986  ./run.sh 2> out2.txt
+  987  ./run.sh 2> out3.txt
+  988  g++ -o proj06 proj06.cpp ./libOpenCL.so.1.1 -lm -fopenmp ./proj06
+  989  ./proj06.c
+  990  clear
+  991  ./proj06.c
+  992  g++ -o proj06 proj06.cpp ./libOpenCL.so.1.1 -lm -fopenmp ./proj06
+  993  ?? compile proj06.cpp with libOpenCL.so
+  994  g++ proj06.cpp -lOpenCL
+  995  ./a.out 
+  996  ?? compile proj06.cpp with libOpenCL.so and openmp
+  997  g++ proj06.cpp -o proj06 -lOpenCL -fopenmp
+  998  ./a.out 
+  999  g++ -o proj06 proj06.cpp -lOpenCL -lm -fopenmp ./proj06
+ 1000  rm proj06
+ 1001  g++ -o proj06 proj06.cpp -lOpenCL -lm -fopenmp ./proj06
+ 1002  ./proj06
+ 1003  g++ -o proj06 proj06.cpp -lOpenCL -lm -fopenmp ./proj06
+ 1004  ./libOpenCL.so 
+ 1005  gcc -o proj06 proj06.cpp ./libOpenCL.so.1.1 -lm -fopenmp ./proj06
+ 1006  rm proj06
+ 1007  gcc -o proj06 proj06.cpp ./libOpenCL.so.1.1 -lm -fopenmp ./proj06
+ 1008  gcc -o proj06 proj06.cpp -I./libOpenCL.so.1.1 -lm -fopenmp ./proj06
+ 1009  gcc -o proj06 proj06.cpp -lOpenCL -lm -fopenmp ./proj06
+ 1010  g++ -o proj06 proj06.cpp -lOpenCL -lm -fopenmp ./proj06
+ 1011  ./a.out 
+ 1012  ./proj06
+ 1013  g++ -o proj06 proj06.cpp -lOpenCL -lm -fopenmp ./proj06
+ 1014  rm proj06
+ 1015  ./proj06
+ 1016  g++ -o proj06 proj06.cpp -lOpenCL -lm -fopenmp ./proj06
+ 1017  ./proj06
+ 1018  nvcc -o proj06 proj06.cpp -lOpenCL -lm -fopenmp ./proj06
+ 1019  ?? write the last 25 lines of terminal cmds to a txt file
+ 1020  history | tail -n 25 > history.txt
+ 1021  history | tail -n 45 > history.txt
+ 1022  history | tail -n 30 > history.txt
+ 1023  git init
+ 1024  git push
+ 1025  git add ,
+ 1026  git add .
+ 1027  git commit -am
+ 1028  git commit -am 'proj06'
+ 1029  git push
+ 1030  history | tail -n 45 > history.txt
